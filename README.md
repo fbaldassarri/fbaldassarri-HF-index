@@ -49,7 +49,14 @@
 
 ## OpenVINO IR (Intermediate Representation) Model Quantizations
 
-text
+OpenVINO IR (Intermediate Representation) consists of 2 parts:
+
+- **Image Encoder**, as openvino_vision_encoder.bin, for encoding input images into LLM cross attention states space;
+- **Language Model**, as openvino_language_model.bin, for generation answer based on cross attention states provided by Image Encoder and input tokens.
+
+Then, for reducing memory consumption, weights compression optimization has applied using [Neural Network Compression Framework (NNCF)](https://github.com/openvinotoolkit/nncf) that provides 4-bit AND 8-bit mixed weight quantization as a compression method primarily designed to optimize LLMs.
+
+Note: Compressed model can be found in as llm_int4_asym_r10_gs64_max_activation_variance_awq_scale_all_layers.bin/.xml
 
 |                                 | OpenVINO IR                                                                                                                                             |
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -65,7 +72,7 @@ text
 
 ## Misc
 
-Legacy tokenizer to use HF Transformers with GGUF quantization files:
+Legacy tokenizers to use HF Transformers with GGUF quantization files:
 
 | GGUF repository                                                                         | Legacy Tokenizer                                                                                                                  |
 |:--------------------------------------------------------------------------------------- |:--------------------------------------------------------------------------------------------------------------------------------- |
