@@ -55,4 +55,18 @@ text
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | meta-llama/Llama-3.2-11B-Vision | [fbaldassarri/meta-llama_Llama-3.2-11B-Vision-Instruct-OpenVino](https://huggingface.co/fbaldassarri/meta-llama_Llama-3.2-11B-Vision-Instruct-OpenVino) |
 
+## Other Quantizations
 
+- GGUF
+  
+  |                               | GGUF                                                                                              |
+  | ----------------------------- | ------------------------------------------------------------------------------------------------- |
+  | sapienzanlp/modello-italia-9b | [fbaldassarri/modello-italia-9B-GGUF](https://huggingface.co/fbaldassarri/modello-italia-9B-GGUF) |
+
+## Misc
+
+Legacy tokenizer to use HF Transformers with GGUF quantization files:
+
+| [TheBloke/Llama-2-70B-GGUF](https://huggingface.co/TheBloke/Llama-2-70B-GGUF)           | [fbaldassarri/Llama-2-70B-GGUF-tokenizer-legacy](https://huggingface.co/fbaldassarri/Llama-2-70B-GGUF-tokenizer-legacy)           |
+| --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| [TheBloke/Llama-2-70B-Chat-GGUF](https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGUF) | [fbaldassarri/Llama-2-70B-Chat-GGUF-tokenizer-legacy](https://huggingface.co/fbaldassarri/Llama-2-70B-Chat-GGUF-tokenizer-legacy) |
