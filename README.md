@@ -6,7 +6,7 @@
 - group size = 128
 - sym == Symmetrical Quantization; asym == Asymmetrical Quantization
 
-|                                      | AutoRound-INT4-gs128                                                                                                                                                                                                    | AutoGPTQ-INT4-gs128                                                                                                                                                                                                   | AutoAWQ-INT4-gs128                                                                                                                                                                                                  |
+| Original Model                       | AutoRound-INT4-gs128                                                                                                                                                                                                    | AutoGPTQ-INT4-gs128                                                                                                                                                                                                   | AutoAWQ-INT4-gs128                                                                                                                                                                                                  |
 | ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | EleutherAI/pythia-14m                | [ASYM](https://huggingface.co/fbaldassarri/EleutherAI_pythia-14m-autoround-int4-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/EleutherAI_pythia-14m-autoround-int4-gs128-sym)                               | [ASYM](https://huggingface.co/fbaldassarri/EleutherAI_pythia-14m-autogptq-int4-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/EleutherAI_pythia-14m-autogptq-int4-gs128-sym)                               | [ASYM](https://huggingface.co/fbaldassarri/EleutherAI_pythia-14m-autoawq-int4-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/EleutherAI_pythia-14m-autoawq-int4-gs128-sym)                               |
 | EleutherAI/pythia-31m                | [ASYM](https://huggingface.co/fbaldassarri/EleutherAI_pythia-31m-autoround-int4-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/EleutherAI_pythia-31m-autoround-int4-gs128-sym)                               | [ASYM](https://huggingface.co/fbaldassarri/EleutherAI_pythia-31m-autogptq-int4-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/EleutherAI_pythia-31m-autogptq-int4-gs128-sym)                               | [ASYM](https://huggingface.co/fbaldassarri/EleutherAI_pythia-31m-autoawq-int4-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/EleutherAI_pythia-31m-autoawq-int4-gs128-sym)                               |
@@ -58,7 +58,7 @@ Then, for reducing memory consumption, weights compression optimization has appl
 
 Note: Compressed model can be found in as llm_int4_asym_r10_gs64_max_activation_variance_awq_scale_all_layers.bin/.xml
 
-|                                 | OpenVINO IR                                                                                                                                             |
+| Original Model                  | OpenVINO IR                                                                                                                                             |
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | meta-llama/Llama-3.2-11B-Vision | [fbaldassarri/meta-llama_Llama-3.2-11B-Vision-Instruct-OpenVino](https://huggingface.co/fbaldassarri/meta-llama_Llama-3.2-11B-Vision-Instruct-OpenVino) |
 
@@ -66,7 +66,7 @@ Note: Compressed model can be found in as llm_int4_asym_r10_gs64_max_activation_
 
 - GGUF
   
-  |                               | GGUF                                                                                              |
+  | Original Model                | GGUF                                                                                              |
   | ----------------------------- | ------------------------------------------------------------------------------------------------- |
   | sapienzanlp/modello-italia-9b | [fbaldassarri/modello-italia-9B-GGUF](https://huggingface.co/fbaldassarri/modello-italia-9B-GGUF) |
 
