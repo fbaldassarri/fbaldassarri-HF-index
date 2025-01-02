@@ -68,5 +68,5 @@ text
 Legacy tokenizer to use HF Transformers with GGUF quantization files:
 
 | [TheBloke/Llama-2-70B-GGUF](https://huggingface.co/TheBloke/Llama-2-70B-GGUF)           | [fbaldassarri/Llama-2-70B-GGUF-tokenizer-legacy](https://huggingface.co/fbaldassarri/Llama-2-70B-GGUF-tokenizer-legacy)           |
-|:--------------------------------------------------------------------------------------- |:--------------------------------------------------------------------------------------------------------------------------------- |
+|--------------------------------------------------------------------------------------- |--------------------------------------------------------------------------------------------------------------------------------- |
 | [TheBloke/Llama-2-70B-Chat-GGUF](https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGUF) | [fbaldassarri/Llama-2-70B-Chat-GGUF-tokenizer-legacy](https://huggingface.co/fbaldassarri/Llama-2-70B-Chat-GGUF-tokenizer-legacy) |
