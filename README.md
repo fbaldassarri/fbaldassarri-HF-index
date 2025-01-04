@@ -62,6 +62,19 @@ Note: Compressed model can be found in as llm_int4_asym_r10_gs64_max_activation_
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | meta-llama/Llama-3.2-11B-Vision | [fbaldassarri/meta-llama_Llama-3.2-11B-Vision-Instruct-OpenVino](https://huggingface.co/fbaldassarri/meta-llama_Llama-3.2-11B-Vision-Instruct-OpenVino) |
 
+## ## INT4-gs64 Quantizations
+
+As GEMM kernel of AWQ does not support group_size=128 for some layers in a few models, I quantized these models using group_size=64 as workaround.
+
+| Original Model                      | AutoRound-INT4-gs64 | AutoGPTQ-INT4-gs64 | AutoAWQ-INT4-gs64                                                                                                                                                                               |
+| ----------------------------------- | ------------------- | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| HuggingFaceTB/SmolLM2-360M          |                     |                    | [ASYM](https://huggingface.co/fbaldassarri/HuggingFaceTB_SmolLM2-360M-auto_awq-int4-gs64-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/HuggingFaceTB_SmolLM2-360M-auto_awq-int4-gs64-sym) |
+| HuggingFaceTB/SmolLM2-360M-Instruct |                     |                    | [ASYM](https://huggingface.co/fbaldassarri/HuggingFaceTB_SmolLM2-360M-Instruct-auto_awq-int4-gs64-asym)<br/>SYM                                                                                 |
+| HuggingFaceTB/SmolLM2-135M          |                     |                    | [ASYM](https://huggingface.co/fbaldassarri/HuggingFaceTB_SmolLM2-135M-auto_awq-int4-gs64-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/HuggingFaceTB_SmolLM2-135M-auto_awq-int4-gs64-sym) |
+| HuggingFaceTB/SmolLM2-135M-Instruct |                     |                    | ASYM<br/>SYM                                                                                                                                                                                    |
+| sapienzanlp/Minerva-350M-base-v1.0  |                     |                    | ASYM<br/>SYM                                                                                                                                                                                    |
+|                                     |                     |                    |                                                                                                                                                                                                 |
+
 ## Other Quantizations
 
 - GGUF
