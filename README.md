@@ -66,6 +66,10 @@ Note: Compressed model can be found in as llm_int4_asym_r10_gs64_max_activation_
 
 As GEMM kernel of AWQ does not support group_size=128 for some layers in a few models, I quantized these models using group_size=64 as workaround.
 
+- 4 bits (INT4)
+- group size = 64
+- sym == Symmetrical Quantization; asym == Asymmetrical Quantization
+
 | Original Model                      | AutoRound-INT4-gs64 | AutoGPTQ-INT4-gs64 | AutoAWQ-INT4-gs64                                                                                                                                                                                                 |
 | ----------------------------------- | ------------------- | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | HuggingFaceTB/SmolLM2-360M          |                     |                    | [ASYM](https://huggingface.co/fbaldassarri/HuggingFaceTB_SmolLM2-360M-auto_awq-int4-gs64-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/HuggingFaceTB_SmolLM2-360M-auto_awq-int4-gs64-sym)                   |
