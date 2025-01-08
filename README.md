@@ -79,15 +79,15 @@ As GEMM kernel of AWQ does not support group_size=128 for some layers in a few m
 | HuggingFaceTB/SmolLM2-135M-Instruct |                     |                    | [ASYM](https://huggingface.co/fbaldassarri/HuggingFaceTB_SmolLM2-135M-Instruct-auto_awq-int4-gs64-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/HuggingFaceTB_SmolLM2-135M-Instruct-auto_awq-int4-gs64-sym) |
 | sapienzanlp/Minerva-350M-base-v1.0  |                     |                    | [ASYM](https://huggingface.co/fbaldassarri/sapienzanlp_Minerva-350M-base-v1.0-autoawq-int4-gs64-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/sapienzanlp_Minerva-350M-base-v1.0-autoawq-int4-gs64-sym)     |
 
-## INT8-gs64 Quantizations
+## INT8-gs128 Quantizations
 
-- 4 bits (INT4)
-- group size = 64
+- 8 bits (INT8)
+- group size = 128
 - sym == Symmetrical Quantization; asym == Asymmetrical Quantization
 
-| Original Model          | AutoRound-INT4-gs64                                                                                                                                                                             | AutoGPTQ-INT4-gs64 | AutoAWQ-INT4-gs64 |
-| ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ | ----------------- |
-| meta-llama/Llama-3.2-1B | [ASYM](https://huggingface.co/fbaldassarri/meta-llama_Llama-3.2-1B-auto_round-int8-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/meta-llama_Llama-3.2-1B-auto_round-int8-gs128-sym) |                    |                   |
+| Original Model          | AutoRound-INT8-gs128                                                                                                                                                                            | AutoGPTQ-INT8-gs128 | AutoAWQ-INT8-gs128 |
+| ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------ |
+| meta-llama/Llama-3.2-1B | [ASYM](https://huggingface.co/fbaldassarri/meta-llama_Llama-3.2-1B-auto_round-int8-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/meta-llama_Llama-3.2-1B-auto_round-int8-gs128-sym) |                     |                    |
 
 ## Other Quantizations
 
