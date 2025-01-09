@@ -59,9 +59,9 @@ Then, for reducing memory consumption, weights compression optimization has appl
 
 Note: Compressed model can be found in as llm_int4_asym_r10_gs64_max_activation_variance_awq_scale_all_layers.bin/.xml
 
-| Original Model                  | OpenVINO IR                                                                                                                                             |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| meta-llama/Llama-3.2-11B-Vision | [fbaldassarri/meta-llama_Llama-3.2-11B-Vision-Instruct-OpenVino](https://huggingface.co/fbaldassarri/meta-llama_Llama-3.2-11B-Vision-Instruct-OpenVino) |
+| Original Model                           | OpenVINO IR                                                                                                                                             |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| meta-llama/Llama-3.2-11B-Vision-Instruct | [fbaldassarri/meta-llama_Llama-3.2-11B-Vision-Instruct-OpenVino](https://huggingface.co/fbaldassarri/meta-llama_Llama-3.2-11B-Vision-Instruct-OpenVino) |
 
 ## ## INT4-gs64 Quantizations
 
