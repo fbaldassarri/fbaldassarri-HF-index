@@ -123,3 +123,5 @@ Community Requests / In Queue
 - Mistral + Mixtral
 
 - LMsys/vicuna
+
+- tiiuae/Falcon3
