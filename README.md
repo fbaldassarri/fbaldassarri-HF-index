@@ -121,7 +121,7 @@ Community Requests / In Queue
 
 - Microsoft Phi-4
 
-- Mistral + Mixtral
+- ~~Mistral ~~+ Mixtral
 
 - LMsys/vicuna
 
