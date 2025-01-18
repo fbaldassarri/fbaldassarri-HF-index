@@ -142,8 +142,10 @@ Legacy tokenizers to use HF Transformers with GGUF quantization files:
 - lmsys/vicuna-7b-v1.5
 
 - lmsys/vicuna-13b-v1.5
-  
-  
+
+- meta-llama/Llama-3.3-70B-Instruct
+
+- 
 
 ## License
 
