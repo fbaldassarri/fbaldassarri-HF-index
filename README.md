@@ -115,14 +115,34 @@ Legacy tokenizers to use HF Transformers with GGUF quantization files:
 | [TheBloke/Llama-2-70B-GGUF](https://huggingface.co/TheBloke/Llama-2-70B-GGUF)           | [fbaldassarri/Llama-2-70B-GGUF-tokenizer-legacy](https://huggingface.co/fbaldassarri/Llama-2-70B-GGUF-tokenizer-legacy)           |
 | [TheBloke/Llama-2-70B-Chat-GGUF](https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGUF) | [fbaldassarri/Llama-2-70B-Chat-GGUF-tokenizer-legacy](https://huggingface.co/fbaldassarri/Llama-2-70B-Chat-GGUF-tokenizer-legacy) |
 
-## Nice to Have
+## In Queue
 
-Community Requests / In Queue 
 
-- Microsoft Phi-4
 
-- ~~Mistral ~~+ Mixtral
+- microsoft/phi-4
 
-- LMsys/vicuna
+- mistralai/Mixtral-8x7B-v0.1
 
-- tiiuae/Falcon3
+- mistralai/Mixtral-8x7B-Instruct-v0.1
+
+- tiiuae/Falcon3-1B-Base
+
+- tiiuae/Falcon3-1B-Instruct
+
+- tiiuae/Falcon3-3B-Base
+
+- tiiuae/Falcon3-3B-Instruct
+
+- tiiuae/Falcon3-7B-Base
+
+- tiiuae/Falcon3-7B-Instruct
+
+- tiiuae/Falcon3-10B-Base
+
+- tiiuae/Falcon3-10B-Instruct
+
+- lmsys/vicuna-7b-v1.5
+
+- lmsys/vicuna-13b-v1.5
+  
+  
