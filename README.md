@@ -117,6 +117,8 @@ Legacy tokenizers to use HF Transformers with GGUF quantization files:
 
 ## In Queue
 
+By priority:
+
 - microsoft/phi-4
 
 - mistralai/Mixtral-8x7B-v0.1
@@ -144,8 +146,8 @@ Legacy tokenizers to use HF Transformers with GGUF quantization files:
 - lmsys/vicuna-13b-v1.5
 
 - meta-llama/Llama-3.3-70B-Instruct
-
-- 
+  
+  
 
 ## License
 
