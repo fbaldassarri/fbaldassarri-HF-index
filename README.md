@@ -147,7 +147,7 @@ Legacy tokenizers to use HF Transformers with GGUF quantization files:
 
 ## License
 
-[Apache 2.0 License]([Apache License 2.0 | Choose a License](https://choosealicense.com/licenses/apache-2.0/))
+[Apache 2.0 License](https://choosealicense.com/licenses/apache-2.0/)
 
 
 
