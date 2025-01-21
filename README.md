@@ -120,7 +120,7 @@ Legacy tokenizers to use HF Transformers with GGUF quantization files:
 
 By priority:
 
-- microsoft/phi-4
+- 
 
 - mistralai/Mixtral-8x7B-v0.1
 
