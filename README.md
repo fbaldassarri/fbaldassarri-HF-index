@@ -126,9 +126,7 @@ By priority:
 
 - mistralai/Mixtral-8x7B-Instruct-v0.1
 
-- tiiuae/Falcon3-1B-Base
-
-- tiiuae/Falcon3-1B-Instruct
+- 
 
 - tiiuae/Falcon3-3B-Base
 
