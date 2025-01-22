@@ -52,6 +52,7 @@
 | mistralai/Mistral-7B-v0.3            | [ASYM](https://huggingface.co/fbaldassarri/mistralai_Mistral-7B-v0.3-autoround-int4-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/mistralai_Mistral-7B-v0.3-autoround-int4-gs128-sym)                       | [ASYM](https://huggingface.co/fbaldassarri/mistralai_Mistral-7B-v0.3-autogptq-int4-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/mistralai_Mistral-7B-v0.3-autogptq-int4-gs128-sym)                       | [ASYM](https://huggingface.co/fbaldassarri/mistralai_Mistral-7B-v0.3-autoawq-int4-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/mistralai_Mistral-7B-v0.3-autoawq-int4-gs128-sym)                       |
 | mistralai/Mistral-7B-Instruct-v0.3   | [ASYM](https://huggingface.co/fbaldassarri/mistralai_Mistral-7B-Instruct-v0.3-autoround-int4-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/mistralai_Mistral-7B-Instruct-v0.3-autoround-int4-gs128-sym)     | [ASYM](https://huggingface.co/fbaldassarri/mistralai_Mistral-7B-Instruct-v0.3-autogptq-int4-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/mistralai_Mistral-7B-Instruct-v0.3-autogptq-int4-gs128-sym)     | [ASYM](https://huggingface.co/fbaldassarri/mistralai_Mistral-7B-Instruct-v0.3-autoawq-int4-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/mistralai_Mistral-7B-Instruct-v0.3-autoawq-int4-gs128-sym)     |
 | microsoft/phi-4                      | [ASYM](https://huggingface.co/fbaldassarri/microsoft_phi-4-autoround-int4-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/microsoft_phi-4-autoround-int4-gs128-sym)                                           | [ASYM](https://huggingface.co/fbaldassarri/microsoft_phi-4-autogptq-int4-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/microsoft_phi-4-autogptq-int4-gs128-sym)                                           | [ASYM](https://huggingface.co/fbaldassarri/microsoft_phi-4-autoawq-int4-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/microsoft_phi-4-autoawq-int4-gs128-sym)                                           |
+| tiiuae/Falcon3-1B-Base               | [ASYM](https://huggingface.co/fbaldassarri/tiiuae_Falcon3-1B-Base-autoround-int4-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/tiiuae_Falcon3-1B-Base-autoround-int4-gs128-sym)                             | [ASYM](https://huggingface.co/fbaldassarri/tiiuae_Falcon3-1B-Base-autogptq-int4-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/tiiuae_Falcon3-1B-Base-autogptq-int4-gs128-sym)                             |                                                                                                                                                                                                                     |
 
 ## OpenVINO IR (Intermediate Representation) Model Quantizations
 
@@ -119,8 +120,6 @@ Legacy tokenizers to use HF Transformers with GGUF quantization files:
 ## In Queue
 
 By priority:
-
-- 
 
 - mistralai/Mixtral-8x7B-v0.1
 
