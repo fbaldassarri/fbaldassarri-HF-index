@@ -54,6 +54,8 @@
 | microsoft/phi-4                      | [ASYM](https://huggingface.co/fbaldassarri/microsoft_phi-4-autoround-int4-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/microsoft_phi-4-autoround-int4-gs128-sym)                                           | [ASYM](https://huggingface.co/fbaldassarri/microsoft_phi-4-autogptq-int4-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/microsoft_phi-4-autogptq-int4-gs128-sym)                                           | [ASYM](https://huggingface.co/fbaldassarri/microsoft_phi-4-autoawq-int4-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/microsoft_phi-4-autoawq-int4-gs128-sym)                                           |
 | tiiuae/Falcon3-1B-Base               | [ASYM](https://huggingface.co/fbaldassarri/tiiuae_Falcon3-1B-Base-autoround-int4-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/tiiuae_Falcon3-1B-Base-autoround-int4-gs128-sym)                             | [ASYM](https://huggingface.co/fbaldassarri/tiiuae_Falcon3-1B-Base-autogptq-int4-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/tiiuae_Falcon3-1B-Base-autogptq-int4-gs128-sym)                             | [ASYM](https://huggingface.co/fbaldassarri/tiiuae_Falcon3-1B-Base-autoawq-int4-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/tiiuae_Falcon3-1B-Base-autoawq-int4-gs128-sym)                             |
 | tiiuae/Falcon3-1B-Instruct           | [ASYM](https://huggingface.co/fbaldassarri/tiiuae_Falcon3-1B-Instruct-autoround-int4-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/tiiuae_Falcon3-1B-Instruct-autoround-int4-gs128-sym)                     | [ASYM](https://huggingface.co/fbaldassarri/tiiuae_Falcon3-1B-Instruct-autogptq-int4-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/tiiuae_Falcon3-1B-Instruct-autogptq-int4-gs128-sym)                     | [ASYM](https://huggingface.co/fbaldassarri/tiiuae_Falcon3-1B-Instruct-autoawq-int4-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/tiiuae_Falcon3-1B-Instruct-autoawq-int4-gs128-sym)                     |
+| tiiuae/Falcon3-3B-Base               | [ASYM](https://huggingface.co/fbaldassarri/tiiuae_Falcon3-3B-Base-autoround-int4-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/tiiuae_Falcon3-3B-Base-autoround-int4-gs128-sym)                             | [ASYM](https://huggingface.co/fbaldassarri/tiiuae_Falcon3-3B-Base-autogptq-int4-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/tiiuae_Falcon3-3B-Base-autogptq-int4-gs128-sym)                             | [ASYM](https://huggingface.co/fbaldassarri/tiiuae_Falcon3-3B-Base-autoawq-int4-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/tiiuae_Falcon3-3B-Base-autoawq-int4-gs128-sym)                             |
+| tiiuae/Falcon3-3B-Instruct           | [ASYM](https://huggingface.co/fbaldassarri/tiiuae_Falcon3-3B-Instruct-autoround-int4-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/tiiuae_Falcon3-3B-Instruct-autoround-int4-gs128-sym)                     | [ASYM](https://huggingface.co/fbaldassarri/tiiuae_Falcon3-3B-Instruct-autogptq-int4-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/tiiuae_Falcon3-3B-Instruct-autogptq-int4-gs128-sym)                     | [ASYM](https://huggingface.co/fbaldassarri/tiiuae_Falcon3-3B-Instruct-autoawq-int4-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/tiiuae_Falcon3-3B-Instruct-autoawq-int4-gs128-sym)                     |
 
 ## OpenVINO IR (Intermediate Representation) Model Quantizations
 
@@ -127,10 +129,6 @@ By priority:
 - mistralai/Mixtral-8x7B-Instruct-v0.1
 
 - 
-
-- tiiuae/Falcon3-3B-Base
-
-- tiiuae/Falcon3-3B-Instruct
 
 - tiiuae/Falcon3-7B-Base
 
