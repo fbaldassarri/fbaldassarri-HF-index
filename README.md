@@ -169,9 +169,9 @@ Note: the AWQ format only supports W4 quantization.
 - sym == Symmetrical Quantization; asym == Asymmetrical Quantization
 - Conversion, Quantization and Compression using CUDA
 
-| Original Model | AutoRound-INT8-gs64-auto | AutoGPTQ-INT8-gs64-auto |
-| -------------- | ------------------------ | ----------------------- |
-|                | ASYM<br/>SYM             | ASYM<br/>SYM            |
+| Original Model                    | AutoRound-INT8-gs64-auto                                                                                                                                                                                                  | AutoGPTQ-INT8-gs64-auto                                                                                                                                                                                                 |
+| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| iGeniusAI/Italia-9B-Instruct-v0.1 | [ASYM](https://huggingface.co/fbaldassarri/iGeniusAI_Italia-9B-Instruct-v0.1-autoround-int8-gs64-auto-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/iGeniusAI_Italia-9B-Instruct-v0.1-autoround-int8-gs64-auto-sym) | [ASYM](https://huggingface.co/fbaldassarri/iGeniusAI_Italia-9B-Instruct-v0.1-autogptq-int8-gs64-auto-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/iGeniusAI_Italia-9B-Instruct-v0.1-autogptq-int8-gs64-auto-sym) |
 
 ## Other Quantizations
 
