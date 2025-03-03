@@ -91,6 +91,7 @@ As GEMM kernel of AWQ does not support group_size=128 for some layers in a few m
 | HuggingFaceTB/SmolLM2-135M          | [ASYM](https://huggingface.co/fbaldassarri/HuggingFaceTB_SmolLM2-135M-auto_round-int4-gs64-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/HuggingFaceTB_SmolLM2-135M-auto_round-int4-gs64-sym)                   | [ASYM](https://huggingface.co/fbaldassarri/HuggingFaceTB_SmolLM2-135M-auto_gptq-int4-gs64-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/HuggingFaceTB_SmolLM2-135M-auto_gptq-int4-gs64-sym)                   | [ASYM](https://huggingface.co/fbaldassarri/HuggingFaceTB_SmolLM2-135M-auto_awq-int4-gs64-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/HuggingFaceTB_SmolLM2-135M-auto_awq-int4-gs64-sym)                   |
 | HuggingFaceTB/SmolLM2-135M-Instruct | [ASYM](https://huggingface.co/fbaldassarri/HuggingFaceTB_SmolLM2-135M-Instruct-auto_round-int4-gs64-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/HuggingFaceTB_SmolLM2-135M-Instruct-auto_round-int4-gs64-sym) | [ASYM](https://huggingface.co/fbaldassarri/HuggingFaceTB_SmolLM2-135M-Instruct-auto_gptq-int4-gs64-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/HuggingFaceTB_SmolLM2-135M-Instruct-auto_gptq-int4-gs64-sym) | [ASYM](https://huggingface.co/fbaldassarri/HuggingFaceTB_SmolLM2-135M-Instruct-auto_awq-int4-gs64-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/HuggingFaceTB_SmolLM2-135M-Instruct-auto_awq-int4-gs64-sym) |
 | sapienzanlp/Minerva-350M-base-v1.0  | [ASYM](https://huggingface.co/fbaldassarri/sapienzanlp_Minerva-350M-base-v1.0-autoround-int4-gs64-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/sapienzanlp_Minerva-350M-base-v1.0-autoround-int4-gs64-sym)     | [ASYM](https://huggingface.co/fbaldassarri/sapienzanlp_Minerva-350M-base-v1.0-autogptq-int4-gs64-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/sapienzanlp_Minerva-350M-base-v1.0-autogptq-int4-gs64-sym)     | [ASYM](https://huggingface.co/fbaldassarri/sapienzanlp_Minerva-350M-base-v1.0-autoawq-int4-gs64-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/sapienzanlp_Minerva-350M-base-v1.0-autoawq-int4-gs64-sym)     |
+| iGeniusAI/Italia-9B-Instruct-v0.1   | ASYM<br/>SYM                                                                                                                                                                                                          | ASYM<br/>SYM                                                                                                                                                                                                        | ASYM<br/>SYM                                                                                                                                                                                                      |
 
 ## INT8-gs128 Quantizations
 
@@ -149,6 +150,28 @@ As GEMM kernel of AWQ does not support group_size=128 for some layers in a few m
 | tiiuae/Falcon3-10B-Instruct         | [ASYM](https://huggingface.co/fbaldassarri/tiiuae_Falcon3-10B-Instruct-autoround-int8-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/tiiuae_Falcon3-10B-Instruct-autoround-int8-gs128-sym)                   | [ASYM](https://huggingface.co/fbaldassarri/tiiuae_Falcon3-10B-Instruct-autogptq-int8-gs128-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/tiiuae_Falcon3-10B-Instruct-autogptq-int8-gs128-sym)                   |
 
 Note: the AWQ format only supports W4 quantization.
+
+## INT8-gs128-auto Quantizations
+
+- 8 bits (INT8)
+- group size = 128
+- sym == Symmetrical Quantization; asym == Asymmetrical Quantization
+- Conversion, Quantization and Compression using CUDA
+
+| Original Model                    | AutoRound-INT8-gs128-auto                                                                                                                                                                                                   | AutoGPTQ-INT8-gs128-auto                                                                                                                                                                                                  |
+| --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| iGeniusAI/Italia-9B-Instruct-v0.1 | [ASYM](https://huggingface.co/fbaldassarri/iGeniusAI_Italia-9B-Instruct-v0.1-autoround-int8-gs128-auto-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/iGeniusAI_Italia-9B-Instruct-v0.1-autoround-int8-gs128-auto-sym) | [ASYM](https://huggingface.co/fbaldassarri/iGeniusAI_Italia-9B-Instruct-v0.1-autogptq-int8-gs128-auto-asym)<br/>[SYM](https://huggingface.co/fbaldassarri/iGeniusAI_Italia-9B-Instruct-v0.1-autogptq-int8-gs128-auto-sym) |
+
+## INT8-gs64-auto Quantizations
+
+- 8 bits (INT8)
+- group size = 64
+- sym == Symmetrical Quantization; asym == Asymmetrical Quantization
+- Conversion, Quantization and Compression using CUDA
+
+| Original Model | AutoRound-INT8-gs64-auto | AutoGPTQ-INT8-gs64-auto |
+| -------------- | ------------------------ | ----------------------- |
+|                | ASYM<br/>SYM             | ASYM<br/>SYM            |
 
 ## Other Quantizations
 
