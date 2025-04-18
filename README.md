@@ -209,9 +209,9 @@ Note: the AWQ format only supports W4 quantization.
 
 ## Other Quantizations
 
-- GGUF
+- **GGUF**
   
-  | Original Model                | GGUF                                                                                              |
+  | Original Model                | Repository                                                                                        |
   | ----------------------------- | ------------------------------------------------------------------------------------------------- |
   | sapienzanlp/modello-italia-9b | [fbaldassarri/modello-italia-9B-GGUF](https://huggingface.co/fbaldassarri/modello-italia-9B-GGUF) |
 
